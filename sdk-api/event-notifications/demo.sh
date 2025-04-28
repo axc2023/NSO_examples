@@ -4,7 +4,7 @@ set -eu # Abort the script if a command returns with a non-zero exit code or if
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
-PURPLE='\033[0;35m'
+PURPLE='\033[1;35m' # Changed to bright purple for better visibility
 NC='\033[0m' # No Color
 NONINTERACTIVE=${NONINTERACTIVE-}
 
